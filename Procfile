@@ -1,1 +1,2 @@
-web: gunicorn django_fingerprinter.wsgi --log-file -
+release: python manage.py migrate
+web: gunicorn django_fingerprinter.wsgi

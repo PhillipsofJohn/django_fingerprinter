@@ -13,9 +13,6 @@ def validate_username(username):
     if not username.isalnum():
         return False
 
-    if not username.lower().startswith("cpe"):
-        return False
-
     return True
 
 
